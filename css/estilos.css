@@ -1,0 +1,127 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+html,body{
+  padding: 0px;
+  margin: 0px;
+}
+
+:root{
+  --green-color:#4B6533;
+  --white-color:#F0F9E8;
+    /* tipografía */
+  --normal:15px;
+  /* Espaciado */
+  --space:10px;
+  /* box shadow */
+  --box:0px 0px 1px #d2cbcb;
+
+}
+
+nav, h1{
+  font-size: 54px;
+  font-family: 'GeosansLight';
+  font-weight: normal;
+  margin-top: 0px;
+  color: var(--green-color);
+}
+
+.head_images{
+  margin-left: 50px;
+}
+
+.head_images img{
+  width: 120%;
+}
+
+.whatssap_images{
+  margin-top: -40px;
+}
+
+.whatssap_images img{
+  width: 75%;
+  margin-left: 30px;
+}
+
+ p{
+  margin-top: -40px;
+}
+
+.email_images img{
+  margin-left: 20px;
+}
+
+.correo p{
+  font-size: 30px;
+}
+
+.lotes{
+  background-image: url("../images/rectangulo.png");
+  height: 275px;
+  padding:60px;
+  display: flex;
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.lotes_img img{
+  margin-top: -50px;
+  height: 300px;
+  width: 500px;
+  text-align: center;
+  padding: 60px;
+}
+
+.lotes_img h2{
+  margin-top: -45px;
+  margin-bottom: 4px;
+  text-align: left;
+  font-family: GeosansLight;
+  font-weight: normal;
+  color: var(--white-color);
+  font-size: 35px;
+}
+
+.beneficios h2{
+  text-align: center;
+  font-family: GeosansLight;
+  font-weight: normal;
+  color: var(--white-color);
+  font-size: 35px;
+  color: var(--green-color);
+}
+
+.beneficio{
+  font-family: GeosansLight;
+  color: var(--green-color);
+  font-size: 20px;
+}
+
+.zonas{
+  font-family: GeosansLight;
+  color: var(--green-color);
+  font-size: 35px;
+}
+
+.zona{
+  font-family: GeosansLight;
+  color: var(--green-color);
+  font-size: 20px;
+}
+
+.formulario{
+  background-image: url(../images/rectangulo2.png);
+  height: 350px;
+  padding:10px;
+  display: flex;
+  background-size: cover;
+  background-position: center top;
+  margin-top: 50px;
+}
